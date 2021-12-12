@@ -6,12 +6,11 @@ gradleEnterprise {
     buildScan {
         termsOfServiceUrl = 'https://gradle.com/terms-of-service'
         termsOfServiceAgree = 'yes'
-        publishAlways()
     }
 }
 
 rootProject.name = 'multi-project-hybrid'
 
 include 'low-1', 'low-2'
-include 'mid-1'
+include 'mid-1', 'mid-2'
 include 'top-1'
