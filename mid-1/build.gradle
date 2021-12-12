@@ -1,3 +1,4 @@
 dependencies {
     api project(':low-1')
+    api project(':low-2')
 }

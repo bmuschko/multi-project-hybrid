@@ -12,4 +12,6 @@ gradleEnterprise {
 
 rootProject.name = 'multi-project-hybrid'
 
-include 'low-1', 'mid-1', 'top-1'
+include 'low-1', 'low-2'
+include 'mid-1'
+include 'top-1'
